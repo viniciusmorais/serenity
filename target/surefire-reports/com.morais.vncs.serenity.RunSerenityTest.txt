@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.morais.vncs.serenity.RunSerenityTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.894 sec <<< FAILURE!
+Transferring funds between internal accounts(Internal transfers)  Time elapsed: 0.046 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "Clive has the following accounts:" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Clive has the following accounts:")
+public void clive_has_the_following_accounts(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("he transfers ${int} from his Current account to his Savings account")
+public void he_transfers_$_from_his_current_account_to_his_savings_account(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("his new account balances should be:")
+public void his_new_account_balances_should_be(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+
